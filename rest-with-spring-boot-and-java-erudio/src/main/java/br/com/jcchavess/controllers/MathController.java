@@ -1,4 +1,4 @@
-package br.com.jcchavess.controlers;
+package br.com.jcchavess.controllers;
 
 import br.com.jcchavess.exception.UnsupportedMathOperationException;
 import br.com.jcchavess.math.SimpleMath;

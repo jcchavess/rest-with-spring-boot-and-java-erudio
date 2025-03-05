@@ -1,4 +1,4 @@
-package br.com.jcchavess.controlers;
+package br.com.jcchavess.controllers;
 
 import br.com.jcchavess.model.Greeting;
 import org.springframework.web.bind.annotation.RequestMapping;
