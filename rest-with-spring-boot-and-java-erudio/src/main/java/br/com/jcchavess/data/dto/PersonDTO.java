@@ -1,10 +1,10 @@
-package br.com.jcchavess.model;
+package br.com.jcchavess.data.dto;
 
 
 import java.io.Serializable;
 import java.util.Objects;
 
-public class Person implements Serializable {
+public class PersonDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -14,7 +14,7 @@ public class Person implements Serializable {
     private String address;
     private String gender;
 
-    public Person() {}
+    public PersonDTO() {}
 
     public Long getId() {
         return id;
@@ -58,7 +58,7 @@ public class Person implements Serializable {
 
     @Override
     public boolean equals(Object o) {
-        if (!(o instanceof Person person)) return false;
+        if (!(o instanceof PersonDTO person)) return false;
         return Objects.equals(getId(), person.getId()) && Objects.equals(getFirstName(), person.getFirstName()) && Objects.equals(getLastName(), person.getLastName()) && Objects.equals(getAddress(), person.getAddress()) && Objects.equals(getGender(), person.getGender());
     }
 
